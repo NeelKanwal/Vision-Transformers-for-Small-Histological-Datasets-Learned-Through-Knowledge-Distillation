@@ -16,19 +16,16 @@ font = {'family': 'serif',
 plt.rc('font', **font)
 fig = plt.subplots(figsize=(12, 12))
 
-from densenet import DenseNet
 import gpytorch
 import pandas as pd
 import sys
 import numpy as np
 import seaborn as sns
-from tqdm import tqdm
 import numpy as np
 import torch
 import os
 from datetime import datetime
 import torch
-import math
 import matplotlib.pyplot as plt
 from sklearn.metrics import confusion_matrix
 import torchvision.transforms as transforms
@@ -36,8 +33,6 @@ from torchvision import datasets
 import torch.nn.functional as F
 from torch import nn
 from torch.utils.data import DataLoader
-from pytorchtools import EarlyStopping
-from gpytorch.variational import UnwhitenedVariationalStrategy
 from torch.autograd import Variable
 import yagmail
 
