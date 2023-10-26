@@ -19,6 +19,10 @@ fig = plt.subplots(figsize=(12, 12))
 import seaborn as sns
 sns.set_style("white")
 
+
+import matplotlib
+matplotlib.use('Agg')
+
 # Define CUDA device.
 import os
 cuda_device = 3
@@ -30,8 +34,6 @@ print("Current CUDA device, ",torch.cuda.current_device())
 # os.environ['CUDA_LAUNCH_BLOCKING'] = '1'
 
 
-import matplotlib
-matplotlib.use('Agg')
 import pandas as pd
 import numpy as np
 import seaborn as sns
