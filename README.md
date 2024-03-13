@@ -25,7 +25,11 @@ Computational Pathology (CPATH) systems have the potential to automate diagnosti
 <img width="1153" alt="image" src="https://github.com/NeelKanwal/Vision-Transformers-for-Small-Histological-Datasets-Learned-Through-Knowledge-Distillation/assets/52494244/818bb8ad-3f3e-42a7-8cdf-da78aaf5d9d0">
 
 # Dataset
-The dataset is currently private. If you plan to use your dataset, then organize it with the following structure: An example of a blood artifact is shown below.
+The dataset is available at https://zenodo.org/records/10809442. 
+
+If you plan to use your dataset, then organize it with the following structure: An example of a blood artifact is shown below.
+
+Use D40x and the folders with related artifacts and artifact_free images in the following order.
 
 ```
 - path_to\airbubble_dataset
