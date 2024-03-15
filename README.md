@@ -25,7 +25,7 @@ Computational Pathology (CPATH) systems have the potential to automate diagnosti
 <img width="1153" alt="image" src="https://github.com/NeelKanwal/Vision-Transformers-for-Small-Histological-Datasets-Learned-Through-Knowledge-Distillation/assets/52494244/818bb8ad-3f3e-42a7-8cdf-da78aaf5d9d0">
 
 # Dataset
-The dataset is available at https://zenodo.org/records/10809442. 
+The HistoArtifacts dataset is available at https://zenodo.org/records/10809442. 
 
 If you plan to use your dataset, then organize it with the following structure: An example of a blood artifact is shown below.
 
@@ -58,3 +58,8 @@ If you use this code, then please cite our paper.
   organization={Springer}
 }
 ```
+
+Other works on HistoArtifact datasets:
+1. Equipping-Computational-Pathology-Systems-with-Artifact-Processing-Pipeline: https://github.com/NeelKanwal/Equipping-Computational-Pathology-Systems-with-Artifact-Processing-Pipeline
+2. Quantifying-the-effect-of-color-processing-on-blood-and-damaged-tissue-detection: https://github.com/NeelKanwal/Quantifying-the-effect-of-color-processing-on-blood-and-damaged-tissue-detection
+3. Are you sure it’s an artifact? Artifact detection and uncertainty quantification in histological images: https://github.com/NeelKanwal/DeepKernelLearning
